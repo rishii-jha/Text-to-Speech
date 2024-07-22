@@ -36,13 +36,16 @@ textarea {
     max-width: 800px;
     height: 400px;
     background: #b388fe;
-    color: #ffffff;
+    color: #fff;
     font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 2px solid #fff;
+    border-radius: 30px;
     outline: 0;
     padding: 20px;
     resize: none;
     margin-bottom: 30px;
+
 }
 
 textarea::placeholder {
@@ -57,12 +60,15 @@ textarea::placeholder {
     justify-content: center;
 }
 
+
 button {
     background: #b388fe;
     color: #ffffff;
     font-size: 16px;
     padding: 10px 30px;
     border: 2px solid #fff;
+    border-radius: 10px;
+
     outline: 0;
     cursor: pointer;
     display: flex;
